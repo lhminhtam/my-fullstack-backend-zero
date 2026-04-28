@@ -1,0 +1,34 @@
+{
+  "name": "fullstack-backend-zero",
+  "version": "1.0.0",
+  "description": "My fullstack backend zero",
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "homepage": "https://github.com/lhminhtam/my-fullstack-backend-zero#readme",
+  "bugs": {
+    "url": "https://github.com/lhminhtam/my-fullstack-backend-zero/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhminhtam/my-fullstack-backend-zero.git"
+  },
+  "license": "ISC",
+  "author": "Minh Tam",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ejs": "3.1.8",
+    "exact": "1.0.1",
+    "express": "5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
